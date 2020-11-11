@@ -1,0 +1,84 @@
+body {
+    font-family: latha;
+    color: white;
+    background: linear-gradient(
+        rgba(0,0,0,0.95),rgba(0,0,0,0.50),rgba(0,0,0,0.38),rgba(0,0,0,0)
+        )
+    ,url(foood.jpg)no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    background-attachment:fixed;
+    background-position: relative;
+    background-repeat: no-repeat;
+}
+
+.box{
+    width: 900px;
+    float: right;
+    border: 1px solid none;
+}
+
+.box ul li{
+width: 120px;
+float: left;
+margin: 10px auto;
+text-align: center;
+}
+
+.box ul li:hover{background-color: green;}
+
+.box ul li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.box ul li a:hover{color: white;}
+
+.wd{
+    width: 300px;
+    height: 540px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+
+.wd h1{
+    text-align: center;
+    font-weight: 100px;
+    text-transform: uppercase;
+}
+
+.wd h4{
+    text-align: justify;
+    color: darkgray;
+    font-weight: normal;
+}
+
+.wd h2{
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+/*    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 10px;
+    margin: 100px;*/
+    padding: 80px
+}
+
+.opt form , input[type="button"]{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    margin: -14px auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+form, input[type="button"]:hover{
+    background-color: green;
+}
+.amgs{
+     text-align: justify;
+    color: red;
+    font-weight: normal;
+}

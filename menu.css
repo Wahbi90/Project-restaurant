@@ -1,0 +1,60 @@
+body {
+    font-family: latha;
+    color: white;
+    background: linear-gradient(
+        rgba(0,0,0,0.95),rgba(0,0,0,0.50),rgba(0,0,0,0.38),rgba(0,0,0,0)
+        )
+    ,url(foood.jpg)no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    background-attachment:fixed;
+    background-position: relative;
+    background-repeat: no-repeat;
+}
+
+.box{
+    width: 900px;
+    float: center;
+    border: 1px solid none;
+}
+
+.box ul li{
+width: 120px;
+float: center;
+margin: 10px auto;
+text-align: center;
+}
+
+.box ul li:hover{background-color: green;}
+
+.box ul li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.box ul li a:hover{color: white;}
+
+.list{
+        text-align: justify;
+    color: darkgray;
+    font-weight: normal;
+    background-color: lightgray
+    margin: 200px;
+    box-shadow: rgba(0,0,0,.1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 10px 20px;
+    border: none
+    font-size: 18px;
+    border-radius: 100px;
+    box-shadow: 7px 10px 12 rgba(0,0,0, .1);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.second{
+    background-color: rgba(0,0,0, .95);
+    padding: 50px;
+    outline: 3px dashed yellow;
+    outline-offset: -30px;
+    text-align: center;
+}
